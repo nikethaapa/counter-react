@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    background-image: url("./gradient-1775317313100.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.app-container {
+    background: transparent;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,66 @@
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.counter-card {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+.card{
+    height: 60px;
+    background:palegreen;
+}
+
+.counter-card > * {
+    background: white;
+    border-radius: 14px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.counter-card h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.min{
+    color: red;
+    font-size: 1.5vw;
+    background: none;
+}
+.count{
+    background-color: rgb(234, 159, 234);
+    width: 200px;
+    border-radius: 45%;
+    padding: 40px;
+    margin-left:20px ;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.buttons button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #333;
+    color: white;
+    transition: 0.3s;
+}
+
+.buttons button:hover {
+    background: #555;
+}
