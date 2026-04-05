@@ -2,7 +2,7 @@ import { useState } from "react";
 import ReactDOM from "react-dom/client";
 import "./counter.css";
 
-const root = ReactDOM.createRoot(document.getElementById("root"))
+
 function Counter() {
     const [count, setcount] = useState(0)
     const [times,settimes]=useState(0)
